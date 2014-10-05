@@ -1,7 +1,19 @@
+@import url(http://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700);
+
 $body-bg: #bdc3c7;
-$navbar-inverse-bg: #34495e;
-$navbar-inverse-link-color: white;
+$font-family-sans-serif:  'PT Sans Narrow', sans-serif;
+$navbar-height: 42pt;
+$navbar-default-bg: #ecf0f1;
+$navbar-default-link-color: #c0392b;
 $brand-primary: #f39c12;
 $jumbotron-bg: #ecf0f1;
 
 @import 'bootstrap';
+
+.center {
+	text-align: center;
+}
+
+.navbar-brand {
+	font-weight: bold;
+}
